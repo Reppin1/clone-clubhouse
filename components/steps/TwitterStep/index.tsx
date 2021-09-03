@@ -15,7 +15,7 @@ export const TwitterStep: React.FC = () => {
       <StepInfo icon="/static/connect.png" title="Do you want import info from Twitter?" />
       <WhiteBlock className={clsx('m-auto mt-40', styles.whiteBlock)}>
         <div className={styles.avatar}>
-          <b>AK</b>
+          <b>AD</b>
           <svg
             width="100"
             height="100"
@@ -29,7 +29,7 @@ export const TwitterStep: React.FC = () => {
             />
           </svg>
         </div>
-        <h2 className="mb-40">Andrey Krylov</h2>
+        <h2 className="mb-40">Archakov Dennis</h2>
         <Button onClick={onNextStep}>
           <img src="/static/twitter.svg" alt="Twitter logo" className={styles.twitterLogo} />
           Import from Twitter

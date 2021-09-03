@@ -11,17 +11,17 @@ interface ConversationCard {
   avatars: string[];
   guestsCount: number;
   speakersCount: number;
-};
+}
 
 export const ConversationCard: React.FC<ConversationCard> = ({
-  title,
-  guests = [],
-  avatars = [],
-  guestsCount,
-  speakersCount,
-}) => {
+                                                               title,
+                                                               guests = [],
+                                                               avatars = [],
+                                                               guestsCount,
+                                                               speakersCount,
+                                                             }) => {
   return (
-    <div className={clsx(whiteBlockStyles.block, styles.card, )}>
+    <div className={clsx(whiteBlockStyles.block, styles.card, 'mb-30')}>
       <h4 className={styles.title}>{title}</h4>
       <div className={clsx('d-flex mt-10', styles.content)}>
         <div className={styles.avatars}>

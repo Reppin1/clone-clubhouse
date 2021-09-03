@@ -8,27 +8,15 @@
     "guestsCount": 269,
     "speakersCount": 2,
     "title": "Do qui eiusmod nisi ipsum id cupidatat consectetur veniam occaecat fugiat consectetur officia.",
-    "guests": [
-      "Vasya Pupkin",
-      "Jojo Mojo",
-      "Наши полномочия всё",
-      "Генадий Горин"
-    ]
+    "guests": ["Vasya Pupkin", "Jojo Mojo", "Наши полномочия всё", "Генадий Горин"]
   },
   {
     "id": "6069d7264927a4e4db9b7935",
-    "avatars": [
-      "https://source.unsplash.com/random/100x100?2"
-    ],
+    "avatars": ["https://source.unsplash.com/random/100x100?2"],
     "guestsCount": 186,
     "speakersCount": 5,
     "title": "Velit fugiat id enim quis fugiat commodo pariatur in eiusmod cupidatat est adipisicing.",
-    "guests": [
-      "Наши полномочия всё",
-      "Vasya Pupkin",
-      "Мафиозник",
-      "Amon Bower"
-    ]
+    "guests": ["Наши полномочия всё", "Vasya Pupkin", "Мафиозник", "Amon Bower"]
   },
   {
     "id": "6069d726118a82af3ef347c0",
@@ -39,12 +27,7 @@
     "guestsCount": 174,
     "speakersCount": 2,
     "title": "Non exercitation et aute eu eiusmod.",
-    "guests": [
-      "Amon Bower",
-      "Vasya Pupkin",
-      "Jojo Mojo",
-      "Amon Bower"
-    ]
+    "guests": ["Amon Bower", "Vasya Pupkin", "Jojo Mojo", "Amon Bower"]
   },
   {
     "id": "6069d726a34e977762f4c593",
@@ -55,12 +38,7 @@
     "guestsCount": 73,
     "speakersCount": 5,
     "title": "Est cillum laboris culpa aute esse adipisicing irure exercitation commodo veniam aliqua mollit magna.",
-    "guests": [
-      "Vasya Pupkin",
-      "Vasya Pupkin",
-      "Мафиозник",
-      "Мафиозник"
-    ]
+    "guests": ["Vasya Pupkin", "Vasya Pupkin", "Мафиозник", "Мафиозник"]
   },
   {
     "id": "6069d7266dda543cd21ec304",
@@ -71,12 +49,7 @@
     "guestsCount": 114,
     "speakersCount": 5,
     "title": "Nostrud reprehenderit consectetur esse dolore amet incididunt aute mollit quis laboris ullamco veniam magna pariatur.",
-    "guests": [
-      "Vasya Pupkin",
-      "Amon Bower",
-      "Vasya Pupkin",
-      "Генадий Горин"
-    ]
+    "guests": ["Vasya Pupkin", "Amon Bower", "Vasya Pupkin", "Генадий Горин"]
   },
   {
     "id": "6069d72677fca4cc9ce8405e",
@@ -87,12 +60,7 @@
     "guestsCount": 250,
     "speakersCount": 2,
     "title": "Magna dolore anim sint in reprehenderit commodo ad.",
-    "guests": [
-      "Мафиозник",
-      "Мафиозник",
-      "Amon Bower",
-      "Vasya Pupkin"
-    ]
+    "guests": ["Мафиозник", "Мафиозник", "Amon Bower", "Vasya Pupkin"]
   },
   {
     "id": "6069d726db52138c40842ba5",
@@ -103,12 +71,7 @@
     "guestsCount": 257,
     "speakersCount": 3,
     "title": "Ex cupidatat proident reprehenderit eiusmod occaecat.",
-    "guests": [
-      "Мафиозник",
-      "Наши полномочия всё",
-      "Наши полномочия всё",
-      "Мафиозник"
-    ]
+    "guests": ["Мафиозник", "Наши полномочия всё", "Наши полномочия всё", "Мафиозник"]
   },
   {
     "id": "6069d726fbc332d16e3077eb",
@@ -119,12 +82,7 @@
     "guestsCount": 40,
     "speakersCount": 15,
     "title": "Qui eiusmod commodo ut anim nostrud id sit occaecat magna mollit.",
-    "guests": [
-      "Vasya Pupkin",
-      "Vasya Pupkin",
-      "Amon Bower",
-      "Jojo Mojo"
-    ]
+    "guests": ["Vasya Pupkin", "Vasya Pupkin", "Amon Bower", "Jojo Mojo"]
   },
   {
     "id": "6069d726a0ccc614a9f8e336",
@@ -135,12 +93,7 @@
     "guestsCount": 19,
     "speakersCount": 13,
     "title": "Excepteur et aliquip voluptate enim non excepteur laborum non veniam.",
-    "guests": [
-      "Amon Bower",
-      "Генадий Горин",
-      "Мафиозник",
-      "Генадий Горин"
-    ]
+    "guests": ["Amon Bower", "Генадий Горин", "Мафиозник", "Генадий Горин"]
   },
   {
     "id": "6069d7264f55c6fbfaf82faa",
@@ -151,11 +104,6 @@
     "guestsCount": 217,
     "speakersCount": 5,
     "title": "Ad eiusmod cupidatat est sit nulla deserunt irure enim ut aliquip consequat qui laboris ut.",
-    "guests": [
-      "Мафиозник",
-      "Мафиозник",
-      "Генадий Горин",
-      "Jojo Mojo"
-    ]
+    "guests": ["Мафиозник", "Мафиозник", "Генадий Горин", "Jojo Mojo"]
   }
 ]

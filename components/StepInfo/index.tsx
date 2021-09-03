@@ -1,6 +1,5 @@
 import clsx from 'clsx';
 import styles from './StepInfo.module.scss';
-import React from "react";
 
 interface StepInfoProps {
   title: string;

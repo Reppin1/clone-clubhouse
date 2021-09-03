@@ -14,7 +14,7 @@ interface ButtonProps {
   color?: keyof typeof colors;
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
   className?: string;
-};
+}
 
 export const Button: React.FC<ButtonProps> = ({
   children,

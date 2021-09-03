@@ -31,10 +31,11 @@ export const EnterCodeStep = () => {
     try {
       setIsLoading(true);
       await Axios.get('/todos');
-      await router.push('/rooms');
+      router.push('/rooms');
     } catch (error) {
       alert('Ошибка при активации!');
     }
+
     setIsLoading(false);
   };
 
@@ -59,13 +60,13 @@ export const EnterCodeStep = () => {
             </div>
             <Button onClick={onSubmit} disabled={nextDisabled}>
               Next
-              <img className="d-ib ml-10" src="/static/arrow.svg"  alt=""/>
+              <img className="d-ib ml-10" src="/static/arrow.svg" />
             </Button>
           </WhiteBlock>
         </>
       ) : (
         <div className="text-center">
-          <div className="loader"/>
+          <div className="loader"></div>
           <h3 className="mt-5">Activation in progress ...</h3>
         </div>
       )}

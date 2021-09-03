@@ -33,7 +33,7 @@ export const ChooseAvatarStep: React.FC = () => {
     <div className={styles.block}>
       <StepInfo
         icon="/static/celebration.png"
-        title="Okay, Andrey Krylov!"
+        title="Okay, Archakov Dennis!"
         description="How’s this photo?"
       />
       <WhiteBlock className={clsx('m-auto mt-40', styles.whiteBlock)}>

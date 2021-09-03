@@ -2,10 +2,10 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import React from 'react';
 import { Avatar } from '../Avatar';
+import { BackButton } from '../BackButton';
 import { Button } from '../Button';
 
 import styles from './Profile.module.scss';
-import {BackButton} from "../BackButton/BackButton";
 
 interface ProfileProps {
   fullname: string;
@@ -18,7 +18,7 @@ export const Profile: React.FC<ProfileProps> = ({ fullname, username, avatarUrl,
   return (
     <>
       <Link href="/rooms">
-        <BackButton title={"Back"} href={"/rooms"} />
+        <BackButton title="Back" href="/rooms" />
       </Link>
 
       <div className="d-flex  align-items-center">
