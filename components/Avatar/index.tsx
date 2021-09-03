@@ -11,10 +11,10 @@ interface AvatarProps {
   isVoice?: boolean;
 }
 
-export const Avatar: React.FC<AvatarProps> = ({ src, width, height, className, isVoice }) => {
+export const Avatar: React.FC<AvatarProps> = ({src, width, height, className, isVoice}) => {
   return (
-    <div
-      style={{ width, height, backgroundImage: `url(${src})` }}
-      className={clsx(styles.avatar, isVoice ? styles.avatarBorder : '', className, 'd-ib')}></div>
+      <div
+          style={{width, height, backgroundImage: `url(${src})`}}
+          className={clsx(styles.avatar, isVoice ? styles.avatarBorder : '', className, 'd-ib')} />
   );
 };
