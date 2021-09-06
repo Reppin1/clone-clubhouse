@@ -4,7 +4,7 @@ import {ConversationCard} from '../components/ConversationCard';
 import Link from 'next/link';
 import React from 'react';
 import Head from "next/head";
-import {checkAuth} from "../helpers/checkAuth";
+import {checkAuth} from "../utils/checkAuth";
 
 export default function RoomsPage({rooms = []}) {
   return (
