@@ -10,9 +10,10 @@ const opts = {
   secretOrKey: process.env.JWT_SECRET_KEY,
 };
 
-passport.use('jwt', new JwtStrategy(opts, (jwt_payload, done) => {
+passport.use('jwt',
+  new JwtStrategy(opts, (jwt_payload, done) => {
   done(null, jwt_payload.data);
-  })
+  }),
 );
 
 passport.use(
@@ -67,6 +68,6 @@ passport.deserializeUser(function (id, done) {
   User.findOne(id, function (err, user) {
     err ? done(err) : done(null, user);
   })
-})
+});
 
 export {passport};
