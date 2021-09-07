@@ -1,12 +1,12 @@
-import {Button} from '../components/Button';
-import {Header} from '../components/Header';
-import {ConversationCard} from '../components/ConversationCard';
+import { Button } from '../components/Button';
+import { Header } from '../components/Header';
+import { ConversationCard } from '../components/ConversationCard';
 import Link from 'next/link';
 import React from 'react';
-import Head from "next/head";
-import {checkAuth} from "../utils/checkAuth";
+import Head from 'next/head';
+import { checkAuth } from '../utils/checkAuth';
 
-export default function RoomsPage({rooms = []}) {
+export default function RoomsPage({ rooms = [] }) {
   return (
     <>
       <Head>
@@ -41,16 +41,16 @@ export default function RoomsPage({rooms = []}) {
 
 export const getServerSideProps = async (ctx) => {
   try {
-    const user = await checkAuth(ctx)
+    const user = await checkAuth(ctx);
 
-    if(!user) {
+    if (!user) {
       return {
         props: {},
         redirect: {
-          permanent: false,
           destination: '/',
-        }
-      }
+          permanent: false,
+        },
+      };
     }
 
     return {
