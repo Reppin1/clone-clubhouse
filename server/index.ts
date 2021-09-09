@@ -3,9 +3,10 @@ import dotenv from 'dotenv';
 import sharp from 'sharp';
 import fs from 'fs';
 import cors from 'cors';
-import { passport } from './core/passport';
+import {passport} from './core/passport';
 import './core/db'
 import AuthController from "./controllers/AuthController";
+import RoomController from "./controllers/RoomController";
 import {uploader} from "./core/uploader";
 
 dotenv.config({
@@ -17,6 +18,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(passport.initialize());
+
+app.get('/rooms', passport.authenticate('jwt', {session: false}), RoomController.index);
+app.post('/rooms', passport.authenticate('jwt', {session: false}), RoomController.create);
+app.get('/rooms/:id', passport.authenticate('jwt', {session: false}), RoomController.show);
+app.delete('/rooms/:id', passport.authenticate('jwt', {session: false}), RoomController.delete);
 
 app.get('/auth/me', passport.authenticate('jwt', {session: false}), AuthController.getMe);
 app.get('/auth/sms/activate',

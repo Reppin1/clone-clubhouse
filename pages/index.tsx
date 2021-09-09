@@ -88,7 +88,7 @@ export default function Home() {
       window.localStorage.setItem('userData', JSON.stringify(userData));
       Axios.defaults.headers.Authorization = 'Bearer ' + userData.token;
     }
-  }, [userData])
+  }, [userData]);
 
   return (
     <MainContext.Provider value={{step, onNextStep, userData, setUserData, setFieldValue}}>
